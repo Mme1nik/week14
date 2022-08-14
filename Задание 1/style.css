@@ -1,0 +1,12 @@
+.output{
+    width:200px;
+    height:50px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(127, 249, 255);
+}
+.background{
+    background-color:aquamarine;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="taskTwo">
+        <div class="gallery">
+            <div class="gallery__item two">
+                <img src="./img/two.jpg" alt="">
+            </div>
+        </div>
+        <button class="previous" onclick="galleryPrevious()">Назад</button>
+        <button class="next" onclick="galleryNext()">Вперед</button>
+    </div>
+
+    <script>
+        function galleryNext() {
+            let picture = document.querySelector('img');
+            picture.src = "./img/three.jpg";
+        }
+        function galleryPrevious() {
+            let picture = document.querySelector('img');
+            picture.src = "./img/one.jpg";
+        }
+    </script>
+</body>
+
+</html>
